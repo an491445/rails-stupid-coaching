@@ -1,7 +1,17 @@
-<p>You:</p>
-<p><%= @question %></p>
+<div class="question-container">
 
-<p>Coach:</p>
-<p><%= @coach_answer %></p>
+  <div class="question-wrapper">
+    <div class="question"><%= @question %></div>
+    <div class="signature">- You</div>
+  </div>
 
-<%= link_to "Ask a new question", ask_path %>
+  <div class="question-wrapper">
+    <div class="question"><%= @coach_answer %></div>
+    <div class="signature">- Coach</div>
+  </div>
+
+  <div class="a-new-question">
+    <%= link_to "Ask a new question", ask_path %>
+  </div>
+</div>
+

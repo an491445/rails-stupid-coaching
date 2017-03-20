@@ -1,3 +1,29 @@
 // Place all the styles related to the coaching controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.question-container {
+  text-align: center;
+
+}
+
+.question-wrapper {
+  padding: 5px;
+  margin: 40px auto;
+  border-left: 3px solid #eeeeee;
+  max-width: 500px;
+}
+
+.question {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.signature {
+  color: gray;
+  font-style: italic;
+}
+
+.a-new-question {
+  margin-top: 50px;
+}
